@@ -1,0 +1,54 @@
+class Main {
+
+  public static void main(String[] args) {
+    firstSection();
+    System.out.println("");
+    secondSection();
+    firstSection();
+    System.out.println("");
+    thirdSection();
+    secondSection();
+    firstSection();
+    System.out.println("");
+    fourthSection();
+    thirdSection();
+    secondSection();
+    firstSection();
+    System.out.println("");
+    fifthSection();
+    fourthSection();
+    thirdSection();
+    secondSection();
+    firstSection();
+  }
+
+
+  public static void firstSection(){
+      System.out.println("There's Klingons on the starboard bow, starboard bow, starboard bow;");
+      System.out.println("there's Klingons on the starboard bow, starboard bow, Jim.");
+      System.out.println("Star Trekkin' across the universe, On the Starship Enterprise under Captain Kirk.");
+      System.out.println("Star Trekkin' across the universe, Only going forward 'cause we can't find reverse.");
+
+  }
+    
+  public static void secondSection(){
+      System.out.println("It's life, Jim, but not as we know it, not as we know it, not as we know it;");
+      System.out.println("it's life, Jim, but not as we know it, not as we know it, Captain.");
+
+  }
+  public static void thirdSection(){
+      System.out.println("It's worse than that, he's dead, Jim, dead, Jim, dead, Jim;");
+      System.out.println("it's worse than that, he's dead, Jim, dead, Jim, dead.");
+  }
+  public static void fourthSection(){
+      System.out.println("We come in peace, shoot to kill, shoot to kill, shoot to kill;");
+      System.out.println("we come in peace, shoot to kill, shoot to kill, men.");
+  }
+  public static void fifthSection(){
+      System.out.println("Ye cannot change the laws of physics, laws of physics, laws of physics;");
+      System.out.println("ye cannot change the laws of physics, laws of physics, Jim.");
+  }
+  
+  
+  
+}
